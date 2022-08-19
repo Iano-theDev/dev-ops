@@ -52,7 +52,7 @@ When you want to visit a site or send an email, you get it...
 In order to access a certain website e.g. 'address.com'. At 
 the address.com name severs, there's an A record that points 
 to the ip address [104.31.2.164] i.e. the request from your 
-browser to address.com is re-directed to the servers '104.31.2.164' 
+browser to address.com is re-directed to the servers [104.31.2.164] 
 and is able to connect.
 
 #### what can you do with A records
@@ -81,6 +81,38 @@ An IPv6 address would look something like: [2001:0db8:85a3:0000:0000:8a2e:0370:7
 * They are long and are made up of astronomical number of unique addresses. 
 * Due to their complexity, there won't be a shortage of supply for a long time.
 * The development of this new address type is what brought forth a new record type to support it hence the AAAA-records(quad-A records).
+
+### CNAME record
+CNAME is an abbriviation for Canonical Name records.
+They are also Known as alias records.
+CNAME recods point a hostname to another hostname or FQDN (Fully qualified Domain Name).
+
+* These records are typically used to point multiple hosts to a single location, without having to specifically assign an
+A record to each hostname.
+e.g: If you moved your blog from `blog.example.com` to `news.example.com` you would use a CNAME record. 
+
+* The can also be used to point a hostname to another domanin or external hostname.
+
+When a namserver looks up a name and finds a CNAME record, it replaces the name with the canonical name i.e the target of
+the CNAME, and looks up the new name.
+
+##### Limitations of the CNAME record:
+* Only use a CNAME if there are no other records for that hostname.
+* CNAME records cannot be used for a root record.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Monitoring
 
