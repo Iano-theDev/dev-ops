@@ -33,7 +33,7 @@ DNs is the technology that translates human-adapted, text-based domain names int
 * The Authoritative server.
 
 ##### links:
-<a href="https://github.com/Iano-theDev/dev-ops/tree/main/web_infr_design">Github README</a>
-<a href="https://twitter.com/Ian_Kamande_W">Twitter</a>
-<a href="https://www.linkedin.com/in/ian-w-kamande/">Linked-in</a>
-<a href="https://medium.com/@sinceianmike">Medium</a>
+* <a href="https://github.com/Iano-theDev/dev-ops/tree/main/web_infr_design">Github README</a>
+* <a href="https://twitter.com/Ian_Kamande_W">Twitter</a>
+* <a href="https://www.linkedin.com/in/ian-w-kamande/">Linked-in</a>
+* <a href="https://medium.com/@sinceianmike">Medium</a>
