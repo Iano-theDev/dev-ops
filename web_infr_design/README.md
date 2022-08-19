@@ -32,6 +32,49 @@ DNs is the technology that translates human-adapted, text-based domain names int
 * The TLD (Top Level Domain).
 * The Authoritative server.
 
+
+# DNS RECORD TYPES
+## A & AAAA Records
+### THE A RECORD
+The A in 'A records' stands for Address & are the simplest 
+types of DNS records. They are one of the primary records used in DNS servers.
+
+#### Exmple of an A-record:
+* Domain: address.com
+* Host-name: mail
+* IP-address: 104.31.2.164
+
+An A record maps a domain name to the IP address (VERSION 4) of the computer hosting the domain. It uses a domain name to find the IP address of a computer connected to the internet.
+
+When you want to visit a site or send an email, you get it...
+
+In order to access a certain website e.g. 'address.com'. At 
+the address.com name severs, there's an A record that points 
+to the ip address '104.31.2.164' i.e. the request from your 
+browser to address.com is re-directed to the servers '104.31.2.164' 
+and is able to connect.
+
+#### what can you do with A records
+
+* use multiple A-records for the same domain to provide redundancy and fallbacks.
+* In a case where multiple names point to the same address, each would have its own A-record pointing to the same ip address.
+
+#### Querying A-records
+* use `dig` to determine the A record associated to a domain name:
+e.g. `dig A address.com`
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##### links:
 * <a href="https://github.com/Iano-theDev/dev-ops/tree/main/web_infr_design">Github README</a>
 * <a href="https://twitter.com/Ian_Kamande_W">Twitter</a>
