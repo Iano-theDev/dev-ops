@@ -1,8 +1,8 @@
 # Web infrustructure & design
-## DNS
+## DNS -> DOMAIN NAME SYSTEM
 ### What is DNS??
 DNs is the technology that translates human-adapted, text-based domain names into machine adapted, numerical-based IP(addresses).
-### How does DNS work.
+### How does DNS work?!
 ### DNS Process from a humans web search perspective:
 * a person searches for a wesite with the domain name eg. "address.com"
 
