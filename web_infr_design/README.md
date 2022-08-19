@@ -1,4 +1,5 @@
 # Web infrustructure & design
+# DNS
 ## DNS -> DOMAIN NAME SYSTEM
 ### What is DNS??
 DNs is the technology that translates human-adapted, text-based domain names into machine adapted, numerical-based IP(addresses).
@@ -64,11 +65,51 @@ and is able to connect.
 e.g. `dig A address.com`
 
 
+### THE AAAA-record
+The AAAA record is used to map a domain name to the IP address
+(Version 6) of the computer hosing the domain. It is similar t the A-record
+
+AAAA record are used to find the IP address of a computer 
+connected 
 
 
+# Monitoring
 
 
+# Web Server
 
+
+# Network Basics
+
+
+# Load Balancer
+
+
+# Server
+
+
+# what is a database
+
+
+# Difference between a web server and an app server.
+
+
+# DNS RECORD TYPES
+<!-- Done -->
+
+# Single point of failure
+
+
+# how to avoid downtime when deploying new code 
+
+
+# High availability cluster (active-active/active passive)
+
+
+# what is HTTPS
+
+
+# what is firewall
 
 
 
