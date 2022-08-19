@@ -51,7 +51,7 @@ When you want to visit a site or send an email, you get it...
 
 In order to access a certain website e.g. 'address.com'. At 
 the address.com name severs, there's an A record that points 
-to the ip address '104.31.2.164' i.e. the request from your 
+to the ip address [104.31.2.164] i.e. the request from your 
 browser to address.com is re-directed to the servers '104.31.2.164' 
 and is able to connect.
 
@@ -66,12 +66,21 @@ e.g. `dig A address.com`
 
 
 ### THE AAAA-record
+They are also reffered to as quad-A records.
+
 The AAAA record is used to map a domain name to the IP address
-(Version 6) of the computer hosing the domain. It is similar t the A-record
+(Version 6 i.e IPv6) of the computer hosing the domain. It is similar t the A-record.
 
 AAAA record are used to find the IP address of a computer 
-connected 
+connected to the internet from a name.
 
+###### some interesting thing's about IPv6:
+An IPv6 address would look something like: [2001:0db8:85a3:0000:0000:8a2e:0370:7334]
+
+* They were developed after realizing that the world would eventually run out of IPv4 addresses.
+* They are long and are made up of astronomical number of unique addresses. 
+* Due to their complexity, there won't be a shortage of supply for a long time.
+* The development of this new address type is what brought forth a new record type to support it hence the AAAA-records(quad-A records).
 
 # Monitoring
 
