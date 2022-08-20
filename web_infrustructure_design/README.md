@@ -129,7 +129,37 @@ These are a type of DNS records that contain tect information for sources outsid
 * To verify domain ownership
 * To ensure email security:
 * * prevent phishing, spamming and other malicious activity
+
+
 # Monitoring
+Software monitoring will watch a computers metrics, record them and emit an alert if something is unusual.
+
+Famous quote in the tech industry: 
+"You cannot fix or improve what you cannot measure"
+
+There are two categories of monitoring:
+* Application monitoring: getting data about running software and making sure it is behaving as expected.
+* Server monitoring: getting data about your vitual or physical sever and making sure they are not overloaded.
+(An overload could occur in th CPU, memory, disk or network)
+
+
+#### Monitoring tools:
+There is special software used to help monitor software.
+### What do software monitoring tools do.
+* CPU: the percentage of CPU should be peaking to its max only rarely, and the peaks should be short.
+* Memory: If the indicator is aproaching it's limit it means that it's important to scale your severs horizontally or adding more RAM.
+* Storage: its important to be ware of disk utilization in order to avoid crashes.
+* Network: Monitoring the network helps to see how traffic is being delivered to your server.  
+
+
+##### Examples of software monitoring tools:
+Here are some examples of monitoring tools:
+* NewRelic
+* DataDog
+* Uptime Robot
+* Nagios
+* WaveFront
+
 
 
 # Web Server
