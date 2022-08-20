@@ -99,21 +99,36 @@ the CNAME, and looks up the new name.
 ##### Limitations of the CNAME record:
 * Only use a CNAME if there are no other records for that hostname.
 * CNAME records cannot be used for a root record.
+* CNAME records that are served by DNAME records may cause recursive loops in older resolvers.
+* Domains that are used in the SMTP MAIL and RCPT commands may not have a CNAME record.[4] In practice this may work, but can have different behavior with different mail servers, and can have undesired effects.
+
+### MX record
+MX record is just simply mail exchanger record.
+It specifies the server reponsible for accepting email messages on behalf of a domain name.
+
+All an MX record is is the DNS setting for your email.
+
+It's possble to configure several MX records, typically pointing to an array of mail servers for load balancing and redundancy.
 
 
+#### How it works...
+* when an email is sent via the internet, the sending MTA(mail transfer agent) queries the domain name system for the 
+MX records of each recipients domain name.
+* This query returns a list of host names of mail exchange servers accespting incoming mail for that domain and their
+preferences.
+* The sending agent then attempts to establish an SMTP connection, trying the host with the lowest "Priority" value first.
+* The system then allows high availability clusters of mail gateways to be built for one domain if neccessary.
 
+~ The MX mechanism doesn't grant the ability to provide mail
+service on alternative port numbers, or the ability to diistribute mail delivery accross a set of unequal-priority mail servers by assigning a weighting value to each one.
 
+### TXT record
+These are a type of DNS records that contain tect information for sources outside of your domain.
 
-
-
-
-
-
-
-
-
-
-
+#### How you can use TXT records:
+* To verify domain ownership
+* To ensure email security:
+* * prevent phishing, spamming and other malicious activity
 # Monitoring
 
 
