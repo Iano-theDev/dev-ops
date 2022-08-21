@@ -268,11 +268,11 @@ network and incoming traffic from external sources (like the
 internet) in order to block malicious traffic like viruses and hackers.
 
 ### Types of firewalls
-* Packet-filtering firewalls
-* Next-generation firewalls (NGFW)
-* Proxy Firewalls
-* Network address translation (NAT) firewall
-* Statefull multiplayer inspection (SMLI) firewalls
+* Packet-filtering firewalls.
+* Next-generation firewalls (NGFW).
+* Proxy Firewalls.
+* Network address translation (NAT) firewall.
+* Statefull multiplayer inspection (SMLI) firewalls.
 
 
 
