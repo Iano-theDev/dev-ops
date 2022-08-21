@@ -259,6 +259,32 @@ on a web server and is used to decrypt information encrypted by the public key.
 encrypted by the public key can only be decrypted by the private key.
 
 # what is firewall
+A firewall is a network security device that monitors 
+incoming and outgoing network traffic and permits or blocks 
+data packets based on a set security rules.
+
+Its purpose is to establish a barrier between your internal 
+network and incoming traffic from external sources (like the 
+internet) in order to block malicious traffic like viruses and hackers.
+
+### Types of firewalls
+* Packet-filtering firewalls
+* Next-generation firewalls (NGFW)
+* Proxy Firewalls
+* Network address translation (NAT) firewall
+* Statefull multiplayer inspection (SMLI) firewalls
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
