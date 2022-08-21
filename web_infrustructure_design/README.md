@@ -245,12 +245,20 @@ high throughput and low latency will help.
 
 
 # what is HTTPS
+Hyper Text Transfer Protocal Secure.
+Its a secure way to send data between a web server and a web browser.
+HTTPS is encrypted to increase security of data transefer.
+This helps especially when transfering sensitive user data like bank login details, email service etc..
 
+### How HTTPS works
+HTTPS uses an encrtption protocol called Transport Layer Security (TLS) formerly Secure Sockets Layer (SSL).
+It secures communication by using asymmetric public key infrastructure which uses two different keys to encrypt communications between two parties:
+* Private Key: Controlled by the owner of a website. It lives 
+on a web server and is used to decrypt information encrypted by the public key.
+* Public Key: Available to everyone who wants to interact with the server in a way that's secure. Information that's 
+encrypted by the public key can only be decrypted by the private key.
 
 # what is firewall
-
-
-
 
 
 
