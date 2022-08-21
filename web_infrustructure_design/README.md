@@ -160,10 +160,62 @@ Here are some examples of monitoring tools:
 * Nagios
 * WaveFront
 
-
-
 # Web Server
+A web server is a software and hardware that uses HTTP(Hyper Text Transfer Protocol) and other protocol to respond to 
+client requests made over the world wide web.
 
+A web server displays website content through storing, processing and delivering webpages to users.
+
+Besides HTTP, web servers also support SMTP(Simple Mail Transfer Protocol) and FTP(File Transfer Protocol), used for 
+email, file transfer and storage.
+
+# Dynamic vs static web-servers
+A static website is one with stable content, where every user 
+sees the exact same thing on each individual page.
+
+A dynamic site is one where content is pulled on-the-fly, 
+allowing its content to change with the user.
+
+A web server can be used to serve either static or dynamic content.
+A static web server will consist of a computer and HTTP 
+software. It's concidered static because the server will send 
+hosted files as is to a browser.
+
+Dynamic web browsers consist of a web server and other 
+software such as an application server and a database . It's 
+considered dynamic because the application server can be used 
+to update any hosted files before they are sent to a browser.
+
+The web server can generate content when it's requested from 
+the database. Though thid process is  more flexible, it's also
+more complicated.
+
+### Some uses of web servers
+* sending and receiving emails;
+* downloading files requested for through FTP.
+* Building and publishing webpages.
+
+### Here are some common web servers...
+* Apache HTTP sever - free and Open source web server for 
+all common OS's and others still 
+* Microsoft Internet Information Services (IIS) - for Microsoft/ Not open source
+* Nginx - Popular coz of its light resource utlization and 
+scalability. Can handle many concurrent sessions due to it's 
+event-driven architecture. it can also be used as a proxy 
+sever and load server. 
+* Lighttpd - comes with FreeBSD OS. Fast and secure consuming low CPU power.
+* Sun Java System Web Server - for Sun Microsystems that can 
+run on windows, linux and unix. Can handle medium to large websites
+
+#### Choosing a web server
+* how well it works with the operating system and other servers; 
+* Its ability to handle server-side programming; 
+* Security characteristics; 
+* Publishing, search engine and site-building tools that come with it.
+
+* Web servers may also have different configurations and set 
+default values. To create high performance, a web server, 
+high throughput and low latency will help.
 
 # Network Basics
 
