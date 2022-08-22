@@ -230,6 +230,25 @@ high throughput and low latency will help.
 
 
 # Difference between a web server and an app server.
+### web-servers
+* Process HTTP requests by responding with html pages
+* Serves static content(html, images, etc)
+* No server side programming.
+* No database or dynamic generation of html.
+
+### application servers
+* Serves business logic to application programs through various protocals.
+* Handles all applications operations between users and an organization's backend business
+* Deploys applications
+#### Parts of Applications server
+* web container
+* Application client
+* EJB container
+ - examples of app servers:
+    * Apache tomcat
+    * Jboss
+    * Weblogic
+    * WebSphere
 
 
 # DNS RECORD TYPES
