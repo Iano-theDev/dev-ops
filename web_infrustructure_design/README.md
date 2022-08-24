@@ -293,20 +293,6 @@ internet) in order to block malicious traffic like viruses and hackers.
 * Network address translation (NAT) firewall.
 * Statefull multiplayer inspection (SMLI) firewalls.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ##### links:
 * <a href="https://github.com/Iano-theDev/dev-ops/tree/main/web_infr_design">Github README</a>
 * <a href="https://twitter.com/Ian_Kamande_W">Twitter</a>
